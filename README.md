@@ -1,12 +1,36 @@
-# React + Vite
+# Newsletter Sign-up Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um formulário de inscrição para newsletter com validação e feedback de sucesso, desenvolvido com React e Tailwind CSS.
 
-Currently, two official plugins are available:
+## 📝 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este desafio consiste em construir um formulário de inscrição com os seguintes requisitos:
 
-## Expanding the ESLint configuration
+- Inserir um e-mail e enviá-lo
+- Ver uma mensagem de sucesso com o e-mail informado
+- Ver mensagens de erro caso:
+  - O e-mail seja inválido
+- Visualizar o layout ideal em diferentes tamanhos de tela (responsivo)
+- Ver estados de foco e hover nos elementos interativos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias usadas
+
+- React
+- Vite
+- Tailwind CSS
+
+## 💻 Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/newsletter-form.git
+
+# Entre na pasta
+cd newsletter-form
+
+# Instale as dependências
+npm install
+
+# Rode o projeto localmente
+npm run dev
+
